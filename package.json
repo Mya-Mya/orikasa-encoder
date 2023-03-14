@@ -1,0 +1,23 @@
+{
+  "name": "orikasa-encoder",
+  "description": "ご主人さまのJavaScriptをぽえぽえキュンキュン♡しちゃいますぅ☆",
+  "version": "0.0.1",
+  "bin": {
+    "orikasa-encoder": "./bin/orikasa-encoder.js",
+    "ayumify": "./bin/orikasa-encoder.js"
+  },
+  "author": "Mya-Mya",
+  "license": "MIT",
+  "dependencies": {
+    "commander": "^10.0.0",
+    "node-notifier": "^10.0.1"
+  },
+  "scripts": {
+    "build": "tsc"
+  },
+  "devDependencies": {
+    "@types/node": "^18.14.2",
+    "ts-node": "^10.9.1",
+    "typescript": "^4.9.5"
+  }
+}
